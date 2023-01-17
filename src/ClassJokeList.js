@@ -10,7 +10,7 @@ class ClassJokeList extends React.Component {
 			jokes: []
 		};
 		this.vote = this.vote.bind(this);
-		this.getJokes = this.getJokes.bind(this);
+		// this.getJokes = this.getJokes.bind(this);
 	}
 
 	/* function for getting jokes */
@@ -50,11 +50,11 @@ class ClassJokeList extends React.Component {
 
 	/* get jokes if there are no jokes */
 
-	async componentDidMount() {
+	componentDidMount() {
 		this.getJokes();
 	}
 
-	async componentDidUpdate() {
+	componentDidUpdate() {
 		if (this.state.jokes.length === 0) {
 			this.getJokes();
 		}
@@ -64,14 +64,17 @@ class ClassJokeList extends React.Component {
 
 	render() {
 		return (
-			<div className="JokeList">
-				<button className="JokeList-getmore" onClick={() => this.setState({ jokes: [] })}>
-					Get New Jokes
-				</button>
+			<div className="Jokes">
+				<h1 className="Title">🤣CheeZJokes</h1>
+				<div className="JokeList">
+					<button className="JokeList-getmore" onClick={() => this.setState({ jokes: [] })}>
+						Get New Jokes
+					</button>
 
-				{[ ...this.state.jokes ]
-					.sort((a, b) => b.votes - a.votes)
-					.map((j) => <ClassJoke text={j.joke} key={j.id} id={j.id} votes={j.votes} vote={this.vote} />)}
+					{[ ...this.state.jokes ]
+						.sort((a, b) => b.votes - a.votes)
+						.map((j) => <ClassJoke text={j.joke} key={j.id} id={j.id} votes={j.votes} vote={this.vote} />)}
+				</div>
 			</div>
 		);
 	}
