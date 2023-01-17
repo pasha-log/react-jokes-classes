@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/pasha-log/react-jokes-classesstatic/css/main.bcbff128.chunk.css",
+    "main.js": "/pasha-log/react-jokes-classesstatic/js/main.a8f09468.chunk.js",
+    "main.js.map": "/pasha-log/react-jokes-classesstatic/js/main.a8f09468.chunk.js.map",
+    "runtime-main.js": "/pasha-log/react-jokes-classesstatic/js/runtime-main.a0c7e28c.js",
+    "runtime-main.js.map": "/pasha-log/react-jokes-classesstatic/js/runtime-main.a0c7e28c.js.map",
+    "static/js/2.748a1e55.chunk.js": "/pasha-log/react-jokes-classesstatic/js/2.748a1e55.chunk.js",
+    "static/js/2.748a1e55.chunk.js.map": "/pasha-log/react-jokes-classesstatic/js/2.748a1e55.chunk.js.map",
+    "index.html": "/pasha-log/react-jokes-classesindex.html",
+    "static/css/main.bcbff128.chunk.css.map": "/pasha-log/react-jokes-classesstatic/css/main.bcbff128.chunk.css.map",
+    "static/js/2.748a1e55.chunk.js.LICENSE.txt": "/pasha-log/react-jokes-classesstatic/js/2.748a1e55.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a0c7e28c.js",
+    "static/js/2.748a1e55.chunk.js",
+    "static/css/main.bcbff128.chunk.css",
+    "static/js/main.a8f09468.chunk.js"
+  ]
+}
