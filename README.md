@@ -4,6 +4,8 @@
 
 ## Description: 
 
+[Try it out](https://pasha-log.github.io/react-jokes-classes/)
+
 In this assignment, I was given a fully functional app that lets people view and vote on cheesy jokes. To generate jokes, it uses the [ICanHazDadJoke API](https://icanhazdadjoke.com/api).
 
 When the page loads, the application fetches 10 jokes, making sure that no joke appears more than once on the page.
